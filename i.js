@@ -6,12 +6,18 @@ let click=new Date()
 let avvio=document.querySelector("#b1")
 let stop=document.querySelector("#b2")
 
-let red=document.querySelector(".l1")
 
-/*
-let lyellow=document.querySelector("lyellow")
-let lgreen=document.querySelector("lgreen")
-*/
+let light1=document.querySelector("#light1")
+
+
+//light1.classList.add(inserire il curret)
+//spegnere il current
+//accendere un altra luce
+
+
+
+
+
 
 function generateRandomInteger(min,max){   
     casualNumber = Math.random()
@@ -24,8 +30,6 @@ console.log(casualNumber)
 
 
 
-
-
 avvio.addEventListener("click", function() {
     console.log('Hai cliccato il pulsante!');
 
@@ -33,10 +37,10 @@ avvio.addEventListener("click", function() {
     setTimeout(function(){
         
        console.log("ok")
+       // prendi il primo elemento con classe light e gli assegni current
     }, casualNumber*1000)
-  })
 
-  red.classList.add(".l1")
+  })
 
 
 

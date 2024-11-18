@@ -38,7 +38,7 @@ body{
         justify-content: center; 
 }
 .semaforo{
-    margin-top: 120px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -52,7 +52,7 @@ body{
 
 
 
-
+/*
 
 .light{
     width:70px;
@@ -62,7 +62,7 @@ body{
     background: linear-gradient(90deg, rgba(125,125,125,1) 0%, rgba(94,94,94,1) 100%);  
 }
 
-
+*/
 
 
 
@@ -125,3 +125,33 @@ span{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
+
+
+.light{
+    width:70px;
+    height:70px;
+    border-radius: 100%;
+    opacity: 0.2;
+}
+
+.light.green{
+    background-color: #1fb51f;
+    box-shadow: 0px 0px 15px 5px #1fb51f;
+}
+
+.light.red{
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px #ff0000;  
+}
+
+.light.yellow{
+    background-color: yellow;
+    box-shadow: 0px 0px 15px 5px #f2e233;
+}
+
+.light.current{
+    opacity: 1;
+}
+
+
+
