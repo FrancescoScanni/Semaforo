@@ -51,10 +51,13 @@ body{
 }
 
 
-
+.luce{
+    background: rgb(125,125,125);
+    background: linear-gradient(90deg, rgba(125,125,125,1) 0%, rgba(94,94,94,1) 100%);
+}
 
 .light1.red{
-    position: relative;
+    
     width:70px;
     height:70px;
     border-radius: 100%;
@@ -146,7 +149,7 @@ p{
     border-color: rgb(0, 110, 255);
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    font-size: 80%;
 
     
 
@@ -163,11 +166,6 @@ span{
 
 
 
-
-
-.current{
-    opacity: 1;
-}
 
 
 
