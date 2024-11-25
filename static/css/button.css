@@ -1,0 +1,23 @@
+
+#b1{
+    width: 120px;
+    height: 60px;
+    background-color: rgb(0, 255, 4);
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: rgb(0, 64, 255);
+    border-width: 3px;
+}
+
+#b2{
+    width: 120px;
+    height: 60px;
+    background-color: yellow;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    border-color: red;
+    border-width: 5px;
+}
