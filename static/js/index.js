@@ -30,11 +30,11 @@ function generateRandomInteger(min,max){
 
 function classifica(millis){
   risultati = risultati.sort((a, b) => a-b)  //funzione di confronto che sevre per ordinare un array
-  document.querySelector('#primo').innerHTML = risultati[0]+ " millisecondi"
-  document.querySelector('#secondo').innerHTML = risultati[1]+ " millisecondi"
-  document.querySelector('#terzo').innerHTML = risultati[2]+ " millisecondi"
-  document.querySelector('#quarto').innerHTML = risultati[3]+ " millisecondi"
-  document.querySelector('#ultimo').innerHTML = millis + " millisecondi"
+  document.querySelector('#primo').innerHTML = risultati[0]+ " ms"
+  document.querySelector('#secondo').innerHTML = risultati[1]+ " ms"
+  document.querySelector('#terzo').innerHTML = risultati[2]+ " ms"
+  document.querySelector('#quarto').innerHTML = risultati[3]+ " ms"
+  document.querySelector('#ultimo').innerHTML = millis + " ms"
 
 }
 
