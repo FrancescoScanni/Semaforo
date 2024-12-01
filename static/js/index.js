@@ -28,13 +28,13 @@ function generateRandomInteger(min,max){
 }
 
 
-function classifica(){
+function classifica(millis){
   risultati = risultati.sort((a, b) => a-b)  //funzione di confronto che sevre per ordinare un array
   document.querySelector('#primo').innerHTML = risultati[0]
   document.querySelector('#secondo').innerHTML = risultati[1]
   document.querySelector('#terzo').innerHTML = risultati[2]
   document.querySelector('#quarto').innerHTML = risultati[3]
-  document.querySelector('#ultimo').innerHTML = millis 
+  document.querySelector('#ultimo').innerHTML = millis +" millisecondi"
 
 }
 
@@ -78,7 +78,7 @@ function stoppa(){
   risultati.push(millis)  //inserimento vettore
 
   resetluci()
-  classifica()
+  classifica(millis)
   stop.removeEventListener("click",stoppa)
 }
 
